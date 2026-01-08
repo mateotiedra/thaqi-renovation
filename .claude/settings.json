@@ -1,5 +1,5 @@
 {
   "permissions": {
-    "allow": ["Edit", "Write", "Bash(npm run *)", "Bash(git *)"]
+    "allow": ["Edit", "Write", "Bash"]
   }
 }

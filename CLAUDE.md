@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Guidelines
+
+- Ask if something is unclear before making assumptions.
+
 ## Build & Development Commands
 
 ```bash
