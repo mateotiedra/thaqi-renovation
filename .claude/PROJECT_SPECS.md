@@ -63,6 +63,41 @@ Address: [Adresse], [Code Postal] [Ville], Suisse
 
 ---
 
+## Hosting & Deployment
+
+- **Hosting**: Infomaniak (static website hosting)
+- **Build**: Static export (`next build` generates static HTML/CSS/JS)
+- **Domain**: thaqirenovation.ch
+
+---
+
+## SEO Optimization
+
+The website must be optimized for search engines to attract local customers searching for renovation services in Switzerland.
+
+### Requirements
+- **Meta tags**: Title, description, keywords on all pages
+- **Open Graph**: Social sharing previews (WhatsApp, Facebook, etc.)
+- **Favicon**: Complete set (ico, png, apple-touch-icon, android-chrome)
+- **Semantic HTML**: Proper heading hierarchy (h1, h2, h3)
+- **Alt texts**: Descriptive alt attributes on all images
+
+### Content Strategy
+- **Short descriptions**: Concise text for service cards on homepage
+- **Long descriptions**: Detailed, keyword-rich content on service pages including:
+  - Explanation of the service
+  - List of specific offerings/options
+  - Local keywords (Genève, Lausanne, Suisse romande, etc.)
+  - Common search terms (e.g., "rénovation façade Genève", "refaire salle de bain")
+
+### Technical SEO
+- **Static generation**: All pages pre-rendered for fast loading
+- **Sitemap**: Auto-generated sitemap.xml
+- **Robots.txt**: Proper crawling directives
+- **Performance**: Optimized images, minimal JavaScript
+
+---
+
 ## Renovation Types
 
 All renovation images are stored in `public/assets/images/renovation/`. Each folder represents a renovation type.

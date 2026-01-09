@@ -1,0 +1,8 @@
+# Robots.txt for Thaqi Rénovation
+# https://thaqirenovation.ch
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://thaqirenovation.ch/sitemap.xml
