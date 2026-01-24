@@ -22,13 +22,25 @@ export const metadata: Metadata = {
   description:
     "Thaqi Rénovation - Votre partenaire de confiance pour tous vos projets de rénovation sur Genève. Cuisine, salle de bain, façade, toiture et plus.",
   keywords: [
-    "rénovation",
-    "suisse",
-    "travaux",
-    "cuisine",
-    "salle de bain",
-    "façade",
-    "toiture",
+    // Location-specific                                                    
+    "rénovation Genève",
+    "entreprise rénovation Genève",
+    "artisan rénovation Genève",
+    // Core services                                                        
+    "rénovation cuisine",
+    "rénovation salle de bain",
+    "rénovation façade",
+    "isolation toiture",
+    // Other services you offer                                             
+    "pose carrelage Genève",
+    "pose parquet",
+    "remplacement fenêtre",
+    "installation porte",
+    "aménagement jardin",
+    "cheminée insert poêle",
+    // Intent keywords                                                      
+    "devis rénovation Genève",
+    "travaux rénovation maison",
   ],
   icons: {
     icon: [
@@ -42,25 +54,26 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_CH",
+    url: "https://thaqirenovation.ch",
     siteName: "Thaqi Rénovation",
     title: "Thaqi Rénovation | Rénovation à Genève",
     description:
       "Votre partenaire de confiance pour tous vos projets de rénovation à Genève. Cuisine, salle de bain, façade, toiture et plus.",
     images: [
       {
-        url: "/assets/images/logos/favicon/android-chrome-512x512.png",
-        width: 512,
-        height: 512,
-        alt: "Thaqi Rénovation",
+        url: "/assets/images/logos/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Thaqi Rénovation - Rénovation de maison à Genève",
       },
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Thaqi Rénovation | Rénovation à Genève",
     description:
       "Votre partenaire de confiance pour tous vos projets de rénovation à Genève.",
-    images: ["/assets/images/logos/favicon/android-chrome-512x512.png"],
+    images: ["/assets/images/logos/og.png"],
   },
   metadataBase: new URL("https://thaqirenovation.ch"),
 };
