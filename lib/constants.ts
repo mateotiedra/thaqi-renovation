@@ -2,7 +2,7 @@ export const COMPANY = {
   name: "Thaqi Rénovations",
   tagline: "Votre partenaire de confiance pour tous vos projets de rénovation sur Genève.",
   phone: "+41 78 866 02 53",
-  email: "info@thaqirenovation.ch",
+  email: "info@thaqirenovations.ch",
   address: "Chemin de la Fauconnerie, 1228 Plan-les-Ouates, Suisse",
 } as const;
 
