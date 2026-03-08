@@ -82,9 +82,9 @@ export default async function RenovationPage({ params }: PageProps) {
       <FAQJsonLd items={faqItems} />
       <BreadcrumbJsonLd
         items={[
-          { name: "Accueil", url: "https://thaqirenovation.ch" },
-          { name: "Services", url: "https://thaqirenovation.ch/#services" },
-          { name: renovation.title, url: `https://thaqirenovation.ch/renovations/${slug}` },
+          { name: "Accueil", url: "https://thaqirenovations.ch" },
+          { name: "Services", url: "https://thaqirenovations.ch/#services" },
+          { name: renovation.title, url: `https://thaqirenovations.ch/renovations/${slug}` },
         ]}
       />
     <div className="container mx-auto px-4 py-12 md:py-16">
