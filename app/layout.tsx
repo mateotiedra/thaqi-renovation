@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Thaqi Rénovation | Rénovation à Genève",
-    template: "%s | Thaqi Rénovation",
+    default: "Thaqi Rénovations | Rénovation à Genève",
+    template: "%s | Thaqi Rénovations",
   },
   description:
-    "Thaqi Rénovation - Votre partenaire de confiance pour tous vos projets de rénovation sur Genève. Cuisine, salle de bain, façade, toiture et plus.",
+    "Thaqi Rénovations - Votre partenaire de confiance pour tous vos projets de rénovation sur Genève. Cuisine, salle de bain, façade, toiture et plus.",
   keywords: [
     // Location-specific                                                    
     "rénovation Genève",
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_CH",
     url: "https://thaqirenovation.ch",
-    siteName: "Thaqi Rénovation",
-    title: "Thaqi Rénovation | Rénovation à Genève",
+    siteName: "Thaqi Rénovations",
+    title: "Thaqi Rénovations | Rénovation à Genève",
     description:
       "Votre partenaire de confiance pour tous vos projets de rénovation à Genève. Cuisine, salle de bain, façade, toiture et plus.",
     images: [
@@ -64,13 +64,13 @@ export const metadata: Metadata = {
         url: "/assets/images/logos/og.png",
         width: 1200,
         height: 630,
-        alt: "Thaqi Rénovation - Rénovation de maison à Genève",
+        alt: "Thaqi Rénovations - Rénovation de maison à Genève",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Thaqi Rénovation | Rénovation à Genève",
+    title: "Thaqi Rénovations | Rénovation à Genève",
     description:
       "Votre partenaire de confiance pour tous vos projets de rénovation à Genève.",
     images: ["/assets/images/logos/og.png"],
