@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_CH",
-    url: "https://thaqirenovation.ch",
+    url: "https://thaqirenovations.ch",
     siteName: "Thaqi Rénovations",
     title: "Thaqi Rénovations | Rénovation à Genève",
     description:
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
       "Votre partenaire de confiance pour tous vos projets de rénovation à Genève.",
     images: ["/assets/images/logos/og.png"],
   },
-  metadataBase: new URL("https://thaqirenovation.ch"),
+  metadataBase: new URL("https://thaqirenovations.ch"),
 };
 
 export default function RootLayout({
