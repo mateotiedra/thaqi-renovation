@@ -4,10 +4,10 @@ export function LocalBusinessJsonLd() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://thaqirenovation.ch/#organization",
+    "@id": "https://thaqirenovations.ch/#organization",
     name: COMPANY.name,
     description: COMPANY.tagline,
-    url: "https://thaqirenovation.ch",
+    url: "https://thaqirenovations.ch",
     telephone: COMPANY.phone,
     email: COMPANY.email,
     address: {
@@ -44,8 +44,8 @@ export function LocalBusinessJsonLd() {
       opens: "08:00",
       closes: "18:00",
     },
-    image: "https://thaqirenovation.ch/assets/images/logos/main.jpg",
-    logo: "https://thaqirenovation.ch/assets/images/logos/favicon/android-chrome-512x512.png",
+    image: "https://thaqirenovations.ch/assets/images/logos/main.jpg",
+    logo: "https://thaqirenovations.ch/assets/images/logos/favicon/android-chrome-512x512.png",
     sameAs: [],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -56,7 +56,7 @@ export function LocalBusinessJsonLd() {
           "@type": "Service",
           name: service.title,
           description: service.shortDescription,
-          url: `https://thaqirenovation.ch/renovations/${service.slug}`,
+          url: `https://thaqirenovations.ch/renovations/${service.slug}`,
           provider: {
             "@type": "LocalBusiness",
             name: COMPANY.name,
@@ -90,7 +90,7 @@ export function ServiceJsonLd({ service }: ServiceJsonLdProps) {
     description: service.longDescription.split("\n\n")[0],
     provider: {
       "@type": "LocalBusiness",
-      "@id": "https://thaqirenovation.ch/#organization",
+      "@id": "https://thaqirenovations.ch/#organization",
       name: COMPANY.name,
       telephone: COMPANY.phone,
       email: COMPANY.email,
@@ -103,7 +103,7 @@ export function ServiceJsonLd({ service }: ServiceJsonLdProps) {
       { "@type": "State", name: "Canton de Genève" },
     ],
     serviceType: "Rénovation",
-    url: `https://thaqirenovation.ch/renovations/${service.slug}`,
+    url: `https://thaqirenovations.ch/renovations/${service.slug}`,
   };
 
   return (
